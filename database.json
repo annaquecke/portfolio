@@ -1,0 +1,56 @@
+{   
+    "description": "List of projects",
+    "projects": [
+        {
+            "name": "easymaster",
+            "id": "hmi",
+            "subName": "smart home app",
+            "cover": "hmi.png",
+            "date": "2019",
+            "color": "#24C7A4",
+            "team": ["Biadsi", "Nina"],
+            "tags": ["UX", "UI", "Smart Home"]
+        },
+        {
+            "name": "Authentic Amalfi Coast",
+            "id": "amalfi",
+            "subName": "tourism website",
+            "cover": "amalfi.png",
+            "date": "2021",
+            "color": "#9DBEDF",
+            "team": ["Federica Rho", "Sandra Tedesco"],
+            "tags": ["UX", "UI", "tourism"]
+        },
+        {
+            "name": "Beat! This Game",
+            "id": "beat",
+            "subName": "rythm game",
+            "cover": "beat.png",
+            "date": "2019",
+            "color": "#CCCCCC",
+            "team": ["Biadsi", "Nina"],
+            "tags": ["UI", "Game Design", "Playtest"]
+        },
+        {
+            "name": "Altromercato",
+            "id": "altromercato",
+            "subName": "fair store experiences",
+            "cover": "altromer.png",
+            "date": "2018",
+            "color": "#DFD1B9",
+            "team": ["T. Marconi", "A. Mazzali", "E. Panciroli", "F. Rho", "M. Romanelli"],
+            "tags": ["UX", "UI", "Prototype"]
+        },
+        {
+            "name": "Il Misfatto",
+            "id": "misfatto",
+            "subName": "gamified museum experience",
+            "cover": "misfatto.png",
+            "date": "2017",
+            "color": "#DFD1B9",
+            "team": ["Biadsi", "Nina"],
+            "tags": ["UX", "Gamification", "Prototype"]
+        }
+        
+    ]
+}
