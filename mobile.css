@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: var(--font)
+}
+
+:root {
+    --main: #A5FFBE;
+    --secondary: #A5FFBE;
+    --font: #303030;
+    --bg: #fff;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+#pointer, #pointer_follower {
+    width: 0;
+    height: 0;
+}
+
+
+        /*GENERAL ELEMENTS*/
+
+html, body {
+/*  overscroll-behavior: none;*/
+    background-color: var(--bg);
+}
+
+div {
+/*    border: solid 1px yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 { font-size: 6vh; padding-bottom: 2vh;}
+h2 { font-size: 4vh; padding-bottom: 3vh;}
+p { font-size: 18px; line-height: 1.5; }
+span { background-color: var(--main)}
+a { color: var(--font); background-color: var(--main); text-decoration: none;}
+
+img {
+    max-width: 100%;
+    padding-top: 60px;
+    image-resolution: 70dpi;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+        /*MAIN CONTAINER*/
+
+#main {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mainer {
+    width: 100%;
+    padding: 60px;
+}
+
+        /*⁄PRESENTATION*/
+
+.columns { flex-flow: column wrap; }
+
+.columns p { width: 100%; }
+
+.row {
+    flex-flow: row wrap;
+    margin-top: 30px;
+    min-width: 100%;
+}
+
+.row a {
+    margin: 2px;
+    padding: 30px;
+}
+
+        /*⁄PROJECTS*/
+
+#projects{
+    flex-flow: column;
+    justify-content: center;
+    align-items: space-around;
+    align-content: center;
+}
+
+.project {
+    height: 70vw;
+    width: 100%;
+    border-top: solid 0px #000;
+    border-bottom: solid 0px #000;
+}
+
+.project p {
+    position: absolute;
+    z-index: 1;
+}
+
+.project div {    
+    height: 100%;
+    width: 100%;
+    background: center no-repeat;
+    background-size: cover;
+    
+/*
+    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
+    filter: grayscale(100%);
+*/
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
+        /*⁄PROTOTYPES VISUAL SETTINGS*/
+
+.prototype {
+    min-height: 2000px;
+    background-color: #000;
+}
+
+.mobileFrame {
+    pointer-events: none;
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    background-image: url(media/images/iphone.png);
+     background: center no-repeat;
+    background-size: contain;
+}
+
+video {
+    position: absolute;
+    z-index: -3;
+    height: 82%;
+    width: auto;
+    border-radius: 8%;
+    overflow: hidden;
+}
+
+iframe {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-style: none;
+}
+
+        /*RIGHTS ON BOTTOM*/
+
+#bottom {
+    width: 100%;
+    bottom: 0;
+    padding: 60px;
+    
+}
+
+#bottom p {
+    font-size: 14px;
+    opacity: 0.4;
+}
