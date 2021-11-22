@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna Quecke - easymaster</title>
+    <meta name="projectID" content="hmi" />
+    <meta name="description" content="A description of the page" />
+      
+    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 768px)" href="../mobile.css">
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 769px)" href="../style.css">
+      
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+      <svg id="fader"></svg>
+      <div id="pointer" class="square round"></div>
+      <div id="pointer_follower" class="square round"></div> 
+      
+      <div id="back" class="square round">&#10140</div>
+      
+      <div class="scroll" id="main">
+          
+          <div class="mainer" id="cover">
+              <h1>easymaster</h1>
+              <h2>Smart home manager app for <a href="https://hmi-master.at/">HMI</a></h2>
+              <p>Brief: design UX and UI of the easymaster app for HMI automation systems</p>
+          </div>
+      
+          <div class="mainer columns">
+              <h3>Summary</h3>
+              <p> 
+                      <span>The challenge</span> For a one-month assignment, three colleagues and I designed an application for the Austrian organisation HMI.
+                    HMI’s business focuses on building automation: they deliver structures which thinks independently and learns from their users. They had already implemented a working mobile application to control their smart home system, but it was completely lacking a well-thought-through UX and a refined UI. The organisation asked us to prototype alternative solutions for them. <br>
+                    <span>The solution</span> Based on the organisation requirements, we developed an application to deliver a pleasurable user experience. In the end, the organisation chose our prototype as the basis for their actual application among all the proposals from the several teams, endorsing our design choices.
+                  </p>
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Context</h3>
+              <p> 
+                      We began <span>analysing competitors</span> to understand the state of the art. We identified four main lessons from our research: guide all the step in the application; design a simple and clear information architecture; create scenarios situations which occur often; optimise for mobile use.
+                  </p>
+              <img src="../media/images/hmi/competitors.png" alt="competitors">
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Concept</h3>
+              <p>
+                  We then set our <span>design approach</span> to help us design with a clear goal in mind. IoT technology is still quite discussed, therefore people can avoid it although fascinating by its benefits. In order to adress this issue, we designed the application for HMI to stress the pros that they desire and soften cons that they scare, to convince the user that this service is valuable for them.
+              </p>
+              <img src="../media/images/hmi/approach.png" alt="approch">
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Design strategy</h3>
+              <p>
+                  Upon our research, we set the <span>main pros and cons</span> related to smart buildings.</p>
+<!--On one side, smart systems reduce the efforts of chores, while providing more control on the building and its devices and hence allowing users to better manage their energy consumptions. On the other, smart buildings require great investments which can appear too luxurious to customers and they have to face users’ fears regarding privacy and data security.-->
+              <p> These elements enables us to guide the design of the application. Hence, along with the functions requested by the client, we <span>brainstormed</span> other ones that we thought would better answer to the users’ expectations, also taking into account the analysis of competitors.
+              </p>
+              <img src="../media/images/hmi/proscons.svg" alt="proscons">
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Application structure</h3>
+                <p>
+                    It was particularly critical for such an application to have a clear <span>information architecture</span>. We tackle this issue by using <span>card sorting</span> to organise the functions that we had defined. Each member of the team sorted the functions and then we discussed together each proposal. We designed the final information architecture by combining the best features of these options.
+              </p>
+              <img src="../media/images/hmi/cardsorting.png" alt="card sorting & information architecture">
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Design experimentation</h3>
+                <p>
+                    We developed various <span>wireframes</span> and sketches to further the architecture of information and experiment with many options. Thanks to this work, we defined UI elements and specific interactions.
+              </p>
+              <img src="../media/images/hmi/wireframing.png" alt="wireframing sketches">
+          </div>
+          
+          <div class="mainer columns">
+              <h3>Visual design</h3>
+                <p>
+                    Finally, we analysed HMI's <span>brand identity</span> to develop a design system coherent with their communication system. The brand provided us all their guidelines along with various material (font, icons, ...) that they already have agreed on.
+              </p>
+              <img src="../media/images/hmi/visual.png" alt="visual design">
+          </div>
+          
+          <div class="mainer columns">
+              <iframe src="https://player.vimeo.com/video/509910731?autoplay=1&loop=1&color=24C7A4&byline=0&portrait=0" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+          <div class="mainer center">
+              <p>Developed with: <br> <a href="https://www.linkedin.com/in/sofiyan-biadsi-420b17158/">Sofiyan Biadsi</a>, <br> Nina Botthof, <br> <a href="https://www.linkedin.com/in/valentina-gatterer-65a910168/">Valentina Gatterer</a>
+            </p>
+          </div>
+          
+    </div>
+      
+    <div id="bottom">
+          <p>© 2020 Anna Quecke. All rights reserved.</p>
+    </div>
+      
+            
+      <!--      SCRIPTS      -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../interactions.js"></script>
+    <script type="text/javascript" src="../colorManagement.js"></script>
+    <script type="text/javascript" src="../jInvertScroll/jquery.jInvertScroll.js"></script>
+      
+  </body>
+</html>
