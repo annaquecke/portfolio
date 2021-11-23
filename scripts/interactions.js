@@ -191,7 +191,7 @@ $( document ).ready(function() {
         el.click(function(event) {
             event.preventDefault();
             var project = $(this).attr("id");
-            var page = "../projects/"+project+".html"; // Set page path
+            var page = "./projects/"+project+".html"; // Set page path
             window.location.assign(page); // Redirect to page path
             breakpoints(576, 768, 992, 1200);
         });
