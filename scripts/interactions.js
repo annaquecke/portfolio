@@ -171,7 +171,7 @@ $( document ).ready(function() {
         
         //GET PROJECTS NAMES
     
-    $.getJSON("database.json", function(data){
+    $.getJSON("../database.json", function(data){
         $( '.project' ).each(function(index) {
             var prj = data.projects[index];
             $(this).attr("id", prj.id);
