@@ -4,15 +4,18 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    color: var(--font)
+    font-family: var(--fontFam);
+    cursor: none;
+    color: var(--fontCol);
 }
 
 :root {
-    --main: #A5FFBE;
-    --secondary: #A5FFBE;
-    --font: #303030;
-    --bg: #fff;
+    --mainCol: #A5FFBE;
+    --background: #F8F8F8;
+    --fontCol: #4A4A4A;
+    --fontFam: 'Mukta', sans-serif;
+    --fontColTitles: #000000;
+    --fontFamTitles: 'Titillium Web', sans-serif;
 }
 
 *::-webkit-scrollbar {
