@@ -176,7 +176,7 @@ $( document ).ready(function() {
             var prj = data.projects[index];
             $(this).attr("id", prj.id);
             $(this).children("p").append("<a>" + prj.name + "</a></br>" + prj.subName);
-            $(this).children("div").css("background-image", "url(../media/images/covers/" + prj.cover + ")");
+            $(this).children("div").css("background-image", "url(/media/images/covers/" + prj.cover + ")");
             
             $('.project p').width($('.project').width());
         });
