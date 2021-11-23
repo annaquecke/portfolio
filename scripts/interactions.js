@@ -176,12 +176,14 @@ $( document ).ready(function() {
             var prj = data.projects[index];
             $(this).attr("id", prj.id);
             $(this).children("p").append("<a>" + prj.name + "</a></br>" + prj.subName);
-                console.log(prj.name);
             $(this).children("div").css("background-image", "url(../media/images/covers/" + prj.cover + ")");
             
             $('.project p').width($('.project').width());
         });
-    });
+    }) 
+    .done(function() { console.log("second success getjson"); })
+    .fail(function() { console.log("error getjson"); })
+    .always(function() { console.log("complete getjson"); });
     
         //REDIRECT TO PROJECTS
     
